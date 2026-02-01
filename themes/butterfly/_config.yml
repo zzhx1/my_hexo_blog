@@ -155,7 +155,7 @@ index_top_img_height:
 
 # The subtitle on homepage
 subtitle:
-  enable: true
+  enable: false
   # Typewriter Effect
   effect: false
   # Customize typed.js
@@ -171,7 +171,7 @@ subtitle:
   source: false
   # If you close the typewriter effect, the subtitle will only show the first line of sub
   sub:
-    - 如果人生是一场游戏的话，那么你的游戏结算分数是，记住你名字数量的人。
+    - 如果人生是一场游戏，那么最终的结算分数，不是你拥有过什么，而是有多少人记得你的名字
 
 # Article layout on the homepage
 # 1: Cover on the left, info on the right
