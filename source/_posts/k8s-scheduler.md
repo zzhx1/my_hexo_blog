@@ -6,6 +6,8 @@ tags:
   - k8s
   - scheduler
 category: 技术教程
+description: 详细介绍 Kubernetes 调度器的原理和自定义插件开发实践，帮助读者理解和掌握 Kubernetes 集群资源调度的机制。
+keywords: k8s, scheduler, 调度器, 原理, 自定义插件, 开发实践
 ---
 
 ## 一、背景介绍
