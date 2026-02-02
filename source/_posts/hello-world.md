@@ -1,7 +1,7 @@
 ---
 title: Clash-CLI 部署与跨机器代理使用全指南
-date: 2025-11-08
-updated: 2026-02-01
+date: 2025-09-08
+updated: 2026-01-15
 tags:
   - Clash
   - 代理配置
