@@ -12,11 +12,10 @@ description: 提出 Sharded Context Parallelism 方案，通过单卡粒度 CP�
 keywords: Context Parallelism, Sharded CP, DeepSeek, vllm, Parallel Inference
 ---
 
-# Sharded Context Parallelism: 极致挖掘 CP 潜力
 
 ## 1. 背景与挑战
 
-### 1.1 Context Parallelism 的崛起
+### 1.1 Context Parallelism 的背景
 上下文并行（Context Parallelism, CP）已成为扩展长上下文（Long Context）及稀疏注意力（Sparse Attention）模型推理的关键技术。相较于传统的张量并行（TP），CP 具备显著优势（参考 [MLSys 2025](https://mlsys.org/virtual/2025/3329)）：
 - **低延迟**：通过序列维度的并行计算显著降低首字延迟（TTFT）。
 - **低通信**：节点间通信量远低于 TP，适合跨节点扩展。
@@ -55,9 +54,9 @@ keywords: Context Parallelism, Sharded CP, DeepSeek, vllm, Parallel Inference
 
 ---
 
-## 3. 技术实现详解：以 DeepSeek V3.2 为例
+## 3. Sharded CP for DeepSeek V3.2 
 
-### 3.1 整体架构与通信掩盖
+### 3.1 整体设计架构
 DeepSeek V3.2 的 Sharded CP 架构设计如下图所示：
 
 <img src="/images/Sharded-Context-Parallel/543207039-e199ca08-7637-4efa-8934-2946e0423e39.png" alt="Architecture Overview" style="zoom:50%;" />
@@ -204,5 +203,4 @@ Sharded Context Parallelism 是一次将 CP 理念推向极致的尝试：
 **实测效果**：DeepSeek-v3.2 吞吐量提升 **336%**，验证了该架构在处理复杂稀疏大模型时的卓越效能。
 
 **未来计划**：
-- 进一步集成 **PCP (Partial Context Parallel)**，实现单卡级别的 KV Cache 物理去重。
 - 将 Sharded CP 推广至更多 Transformer 架构模型，坐等Deepseek-V4😊。

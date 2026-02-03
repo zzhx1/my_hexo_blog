@@ -17,7 +17,6 @@ keywords:
   - Deepseek
   - 模型加速
 ---
-# DeepSeek-R1 模型 Decode 阶段细粒度张量并行优化
 
 > 在大规模语言模型推理中，Decode 阶段的性能优化面临独特挑战：单 token 生成的 memory-bound 特性使得传统纯数据并行策略在显存占用和访存效率上存在瓶颈。 本文针对 DeepSeek-R1 模型，提出了细粒度张量并行优化方案。通过对 O_proj、LM Head、Embedding 和 Dense FFN 四个关键模块实施跨 DP 组的定制化切分策略，在昇腾平台上实现了 **9.72 GB 显存节省** 和约 **2 ms TPOT 优化**，显著提升了 Decode 节点的并发能力。所有优化已开源并合入 vllm-ascend 社区。
 
