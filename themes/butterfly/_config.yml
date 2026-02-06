@@ -22,6 +22,7 @@ menu:
   标签: /tags/ || fas fa-tags     # 标签页入口（你之前创建的tags页面）
   分类: /categories/ || fas fa-folder-open  # 分类页入口
   归档: /archives/ || fas fa-archive        # 归档页入口
+  摄影: /photography/ || fas fa-camera      # 摄影页入口
   关于: /about/ || fas fa-user              # 关于页入口（需先执行 hexo new page "about" 创建）
   # Home: / || fas fa-home
   # List||fas fa-list:
