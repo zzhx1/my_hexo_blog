@@ -292,7 +292,7 @@ aside:
     category: true
   card_author:
     enable: true
-    description: 分享技术和生活的碎碎念
+    description:
     button:
       enable: true
       icon: fab fa-github
