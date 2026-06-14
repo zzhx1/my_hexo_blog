@@ -1,6 +1,9 @@
 # macOS
 .DS_Store
 
+# Hexo deploy clone (regenerated on each deploy, must not be tracked)
+.deploy_git/
+
 # Logs
 logs
 *.log

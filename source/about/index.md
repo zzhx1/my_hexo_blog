@@ -4,13 +4,43 @@ date: 2026-02-01 04:10:29
 type: about
 ---
 
-<!-- ## About me
+## zhangzihang
+<br>
 
-Hi, I'm Zhang Zihang, from Lianshui, Jiangsu. I'm a third-year graduate student at the Institute of Computing Technology, Chinese Academy of Sciences, advised by Wang Sa.
+----
+<br>
 
-## What I do
+## 📌 现在
+在做 **AI Infra**，琢磨着怎么让模型跑得更快、更省一点。
+<br>
 
-- Work / Study: ML systems, AI infrastructure
-- Interests: photography, gaming, cycling
 
- -->
+## 📖 这个博客
+
+记录我学到的东西，和一路上路过的光。
+<br>
+
+
+## 🔗 链接
+
+- **GitHub**：[zzhx1](https://github.com/zzhx1)
+- **Email**：[zzh_201018@outlook.com](mailto:zzh_201018@outlook.com)
+<br>
+
+
+## 🌱 关于我
+
+我习惯做一个观察者——
+看技术系统怎么运转，也看人和人之间怎么连接。
+
+从一个不起眼的起点出发，一点点往上走。
+遇到问题，解决它，再找下一个。
+
+喜欢一切需要专注才能体会到的东西——一段代码，一段长对话，一场雨。
+
+> 如果说有什么是我真正相信的——
+>
+> **成长本身，就是意义。**
+
+<br>
+
